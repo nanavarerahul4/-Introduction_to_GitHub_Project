@@ -9,9 +9,10 @@ public class UtilityClass
 {
 	public static String getPFdata(String key) throws IOException 
 	{  
-		FileInputStream file=new FileInputStream("E:\\Software Testing Rahul\\Eclipse\\Programs\\Introduction_to_GitHub_Project\\login.properties");
+		FileInputStream file=new FileInputStream("C:\\Users\\Admin\\git\\-Introduction_to_GitHub_Project\\Kite.properties");
 	    Properties p=new Properties();
 	    p.load(file);
+	    System.out.println(p.getProperty(key));
 	    return p.getProperty(key);
 	
 	}

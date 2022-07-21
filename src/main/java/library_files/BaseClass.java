@@ -16,7 +16,8 @@ public class BaseClass
 	    driver=new FirefoxDriver();
 	    driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	    driver.manage().window().maximize();
-	    driver.get(UtilityClass.getPFdata("URL"));
+	    System.out.println("Entered in base class");
+	    driver.get("https://kite.zerodha.com/");
 	    //driver.get("https://kite.zerodha.com/");
 	}
 

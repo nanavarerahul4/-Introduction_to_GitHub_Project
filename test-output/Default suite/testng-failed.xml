@@ -5,6 +5,8 @@
     <classes>
       <class name="module1_login_test.KiteLoginTest">
         <methods>
+          <include name="CloseBrower"/>
+          <include name="before"/>
           <include name="veriftyUserID"/>
         </methods>
       </class> <!-- module1_login_test.KiteLoginTest -->
